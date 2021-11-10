@@ -73,8 +73,8 @@ $(document).ready(function () {
         <div class="col-12 col-md-6">
             <div class="card">
                 <div class="card-body">
-                <a href="detalle.html?id=${eventos.indexOf(x)}"><h3 class="card-title p-0 m-0">${x.nombre}</h3></a>
-                    <small class="text-muted">${x.fecha}</small>
+                <a href="detalle.html?id=${eventos.indexOf(x)}"><h2 class="card-title p-0 m-0">${x.nombre}</h2></a>
+                    <small class="text-muted" id="fecha">${x.fecha}</small>
                     <p class="card-text pt-1">${x.descripcion}</p>
                 </div>
             </div>
@@ -126,8 +126,8 @@ $(document).ready(function () {
         <div class="col-12 col-md-6">
             <div class="card">
                 <div class="card-body">
-                    <a href="detalle.html?id=${eventos.indexOf(x)}"><h3 class="card-title p-0 m-0">${x.nombre}</h3></a>
-                    <small class="text-muted">${x.fecha}</small>
+                    <a href="detalle.html?id=${eventos.indexOf(x)}"><h2 class="card-title p-0 m-0">${x.nombre}</h2></a>
+                    <small class="text-muted" id="fecha">${x.fecha}</small>
                     <p class="card-text pt-1">${x.descripcion}</p>
                 </div>
             </div>

@@ -46,10 +46,10 @@ $(document).ready(function () {
         <div class="col-12 col-md-12 mb-3">
             <div class="card">
                 <div class="card-body">
-                    <a href="detalle.html?id=${eventos.indexOf(x)}"><h3 class="card-title p-0 m-0">${x.nombre}</h3></a>
-                    <small class="text-muted">${x.fecha} - ${x.lugar}</small>
-                    <p class="card-text pt-1">${x.descripcion}</p>
-                    Invitados: ${x.invitados}
+                    <a href="detalle.html?id=${eventos.indexOf(x)}"><h2 class="card-title p-0 m-0">${x.nombre}</h2></a>
+                    <small class="text-muted" id="fecha">${x.fecha} - ${x.lugar}</small>
+                    <p class="card-text p-0 pt-1 m-0">${x.descripcion}</p>
+                    <p class="card-text" id="invitados">Invitados: ${x.invitados}</p>
                 </div>
             </div>
         </div>

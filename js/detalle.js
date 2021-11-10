@@ -27,12 +27,11 @@ $(document).ready(function () {
       <div class="col-12 col-md-12 mb-3">
           <div class="card">
               <div class="card-body">
-                  <h3 class="card-title p-0 m-0">${eventos[id].nombre}</h3>
-                  <small class="text-muted">${eventos[id].fecha} - ${eventos[id].lugar}</small>
-                  <p class="card-text pt-1">${eventos[id].descripcion}<br>
-                  Costo: ${eventos[id].precio}<br>
-                  Invitados: ${eventos[id].invitados}
-                  </p>
+                  <h2 class="card-title p-0 m-0">${eventos[id].nombre}</h2>
+                  <small class="text-muted" id="fecha">${eventos[id].fecha} - ${eventos[id].lugar}</small>
+                  <p class="card-text pt-1 p-0 m-0">${eventos[id].descripcion}</p>
+                  <p class="card-text p-0 m-0" id="costo">Costo: ${eventos[id].precio}<br></p>
+                  <p class="card-text" id="invitados">Invitados: ${eventos[id].invitados}</p>
               </div>
           </div>
       </div>
