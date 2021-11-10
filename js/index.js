@@ -52,11 +52,11 @@ $(document).ready(function () {
         ultimoNumeroProximo = randomProximo;
         i++; 
       }    
-    }
+    };
 
     //Ordena los eventos extraidos segun la fecha (los mas cercanos primero)
     extraidosProximos = extraidosProximos.sort(function(x,y){
-      if(x.fecha < y.fecha){
+      if(x.fecha > y.fecha){
         return 1;
       }
       return -1;
@@ -80,7 +80,7 @@ $(document).ready(function () {
             </div>
         </div>
       `
-    }
+    };
 
     //Modifica el DOM agregando el html generado
     document.getElementById("proximos").innerHTML = htmlProximo;
@@ -94,7 +94,7 @@ $(document).ready(function () {
         return 1;
       }
       return -1;
-    })
+    });
 
     //Extrae solo dos eventos pasados
     while(o < 2){
@@ -117,7 +117,7 @@ $(document).ready(function () {
 
     //Crea un string que contenga el HTML que describe el detalle del evento
 
-    var htmlPasado = ""
+    var htmlPasado = "";
 
     //Recorre el arreglo y concatena el HTML para cada evento
 
@@ -133,10 +133,10 @@ $(document).ready(function () {
             </div>
         </div>
       `
-    }
+    };
 
     //Modifica el DOM agregando el html generado
     document.getElementById("pasados").innerHTML = htmlPasado;
-  })
+  });
 
 });
