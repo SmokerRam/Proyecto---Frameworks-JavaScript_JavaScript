@@ -73,9 +73,9 @@ $(document).ready(function () {
         <div class="col-12 col-md-6">
             <div class="card">
                 <div class="card-body">
-                    <h3 class="card-title">${x.nombre}</h3>
+                    <h3 class="card-title p-0 m-0">${x.nombre}</h3>
                     <small class="text-muted">${x.fecha}</small>
-                    <p class="card-text">${x.descripcion}</p>
+                    <p class="card-text pt-1">${x.descripcion}</p>
                 </div>
             </div>
         </div>
@@ -126,9 +126,9 @@ $(document).ready(function () {
         <div class="col-12 col-md-6">
             <div class="card">
                 <div class="card-body">
-                    <h3 class="card-title">${x.nombre}</h3>
+                    <h3 class="card-title p-0 m-0">${x.nombre}</h3>
                     <small class="text-muted">${x.fecha}</small>
-                    <p class="card-text">${x.descripcion}</p>
+                    <p class="card-text pt-1">${x.descripcion}</p>
                 </div>
             </div>
         </div>
