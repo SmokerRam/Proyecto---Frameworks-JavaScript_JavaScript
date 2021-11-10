@@ -7,7 +7,7 @@ var pasados = [];
 var extraidosProximos = [];
 var extraidosPasados = [];
 
-var eventos, hoy, longitud;
+var eventos, hoy;
 
 var i = 0;
 var o = 0;
