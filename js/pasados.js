@@ -49,7 +49,7 @@ $(document).ready(function () {
                     <a href="detalle.html?id=${eventos.indexOf(x)}"><h2 class="card-title p-0 m-0">${x.nombre}</h2></a>
                     <small class="text-muted" id="fecha">${x.fecha} - ${x.lugar}</small>
                     <p class="card-text p-0 pt-1 m-0">${x.descripcion}</p>
-                    <p class="card-text" id="invitados">Invitados: ${x.invitados}</p>
+                    <p class="card-text" id="invitados-pasados">Invitados: ${x.invitados}</p>
                 </div>
             </div>
         </div>
