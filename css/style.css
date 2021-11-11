@@ -31,6 +31,29 @@ label {
     font-family: 'Calibri';
 }
 
+small{
+    font-size: 1rem;
+}
+
+.card-text{
+    font-size: 1.2rem;
+}
+
+#invitados-pasados{
+    color: cyan;
+}
+
+#costo-proximos{
+    color: cyan;
+}
+
+#invitados{
+    color: chocolate;
+}
+
+#costo{
+    color: cyan;
+}
 
 
 /*--------------------------------------------------------------
